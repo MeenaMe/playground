@@ -1,0 +1,28 @@
+html, body { height: 100%; }
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+td.mat-cell {
+    padding: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    text-align: center;
+    border-right: 1px solid #dcdcdc;
+    padding: 15px !important;
+}
+
+table.mat-table {
+    border-spacing: 0;
+    margin: 0 auto;
+    border: 1px solid #dcdcdc;
+}
+.col-wd-110 {
+    min-width: 110px;
+    border-right: 1px solid #dcdcdc;
+    text-align: center;
+}
+
+.mat-table {
+    border-spacing: 0;
+    margin: 0 auto;
+}
